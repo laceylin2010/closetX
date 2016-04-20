@@ -8,22 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		AF47BD1B1CC58082004BBB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD1A1CC58082004BBB9B /* AppDelegate.swift */; };
-		AF47BD1D1CC58082004BBB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD1C1CC58082004BBB9B /* ViewController.swift */; };
+		AF47BD1D1CC58082004BBB9B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD1C1CC58082004BBB9B /* HomeViewController.swift */; };
 		AF47BD201CC58082004BBB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD1E1CC58082004BBB9B /* Main.storyboard */; };
 		AF47BD231CC58082004BBB9B /* closetX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD211CC58082004BBB9B /* closetX.xcdatamodeld */; };
 		AF47BD251CC58082004BBB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD241CC58082004BBB9B /* Assets.xcassets */; };
 		AF47BD281CC58082004BBB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD261CC58082004BBB9B /* LaunchScreen.storyboard */; };
+		AF47BD3C1CC7F213004BBB9B /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD351CC7F213004BBB9B /* User+CoreDataProperties.m */; };
+		AF47BD3D1CC7F213004BBB9B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD371CC7F213004BBB9B /* User.m */; };
+		AF47BD3E1CC7F213004BBB9B /* Item+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD391CC7F213004BBB9B /* Item+CoreDataProperties.m */; };
+		AF47BD3F1CC7F213004BBB9B /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD3B1CC7F213004BBB9B /* Item.m */; };
+		AF47BD431CC7F286004BBB9B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD421CC7F286004BBB9B /* ProfileViewController.swift */; };
+		AF47BD451CC7F29A004BBB9B /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD441CC7F29A004BBB9B /* FollowingViewController.swift */; };
+		AF47BD471CC7F2A2004BBB9B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD461CC7F2A2004BBB9B /* CategoryViewController.swift */; };
+		AF47BD491CC7F2A8004BBB9B /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */; };
+		AF47BD4B1CC7F2AE004BBB9B /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD4A1CC7F2AE004BBB9B /* ProductViewController.swift */; };
+		AF47BD4D1CC7F2C2004BBB9B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD4C1CC7F2C2004BBB9B /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF47BD171CC58082004BBB9B /* closetX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = closetX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF47BD1A1CC58082004BBB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF47BD1C1CC58082004BBB9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF47BD1C1CC58082004BBB9B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF47BD1F1CC58082004BBB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF47BD221CC58082004BBB9B /* closetX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = closetX.xcdatamodel; sourceTree = "<group>"; };
 		AF47BD241CC58082004BBB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF47BD271CC58082004BBB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF47BD291CC58082004BBB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF47BD331CC7F212004BBB9B /* closetX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "closetX-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF47BD341CC7F213004BBB9B /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AF47BD351CC7F213004BBB9B /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AF47BD361CC7F213004BBB9B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AF47BD371CC7F213004BBB9B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		AF47BD381CC7F213004BBB9B /* Item+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AF47BD391CC7F213004BBB9B /* Item+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AF47BD3A1CC7F213004BBB9B /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		AF47BD3B1CC7F213004BBB9B /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		AF47BD421CC7F286004BBB9B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AF47BD441CC7F29A004BBB9B /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		AF47BD461CC7F2A2004BBB9B /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		AF47BD4A1CC7F2AE004BBB9B /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		AF47BD4C1CC7F2C2004BBB9B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				AF47BD191CC58082004BBB9B /* closetX */,
+				AF47BD4E1CC7FEF4004BBB9B /* Images */,
 				AF47BD181CC58082004BBB9B /* Products */,
+				AF47BD331CC7F212004BBB9B /* closetX-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,14 +83,86 @@
 		AF47BD191CC58082004BBB9B /* closetX */ = {
 			isa = PBXGroup;
 			children = (
-				AF47BD1A1CC58082004BBB9B /* AppDelegate.swift */,
-				AF47BD1C1CC58082004BBB9B /* ViewController.swift */,
+				AF47BD2F1CC7ED99004BBB9B /* Controllers */,
+				AF47BD301CC7EDA5004BBB9B /* View */,
+				AF47BD311CC7EDB3004BBB9B /* Global */,
+				AF47BD321CC7EDC4004BBB9B /* Model */,
+			);
+			path = closetX;
+			sourceTree = "<group>";
+		};
+		AF47BD2F1CC7ED99004BBB9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF47BD1C1CC58082004BBB9B /* HomeViewController.swift */,
+				AF47BD4C1CC7F2C2004BBB9B /* SearchViewController.swift */,
+				AF47BD421CC7F286004BBB9B /* ProfileViewController.swift */,
+				AF47BD441CC7F29A004BBB9B /* FollowingViewController.swift */,
+				AF47BD461CC7F2A2004BBB9B /* CategoryViewController.swift */,
+				AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */,
+				AF47BD4A1CC7F2AE004BBB9B /* ProductViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AF47BD301CC7EDA5004BBB9B /* View */ = {
+			isa = PBXGroup;
+			children = (
 				AF47BD1E1CC58082004BBB9B /* Main.storyboard */,
-				AF47BD241CC58082004BBB9B /* Assets.xcassets */,
 				AF47BD261CC58082004BBB9B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AF47BD311CC7EDB3004BBB9B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				AF47BD241CC58082004BBB9B /* Assets.xcassets */,
+				AF47BD1A1CC58082004BBB9B /* AppDelegate.swift */,
 				AF47BD291CC58082004BBB9B /* Info.plist */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		AF47BD321CC7EDC4004BBB9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF47BD401CC7F23D004BBB9B /* class */,
+				AF47BD411CC7F24C004BBB9B /* categories */,
 				AF47BD211CC58082004BBB9B /* closetX.xcdatamodeld */,
 			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF47BD401CC7F23D004BBB9B /* class */ = {
+			isa = PBXGroup;
+			children = (
+				AF47BD3A1CC7F213004BBB9B /* Item.h */,
+				AF47BD3B1CC7F213004BBB9B /* Item.m */,
+				AF47BD361CC7F213004BBB9B /* User.h */,
+				AF47BD371CC7F213004BBB9B /* User.m */,
+			);
+			name = class;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AF47BD411CC7F24C004BBB9B /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				AF47BD341CC7F213004BBB9B /* User+CoreDataProperties.h */,
+				AF47BD351CC7F213004BBB9B /* User+CoreDataProperties.m */,
+				AF47BD381CC7F213004BBB9B /* Item+CoreDataProperties.h */,
+				AF47BD391CC7F213004BBB9B /* Item+CoreDataProperties.m */,
+			);
+			name = categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AF47BD4E1CC7FEF4004BBB9B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			path = closetX;
 			sourceTree = "<group>";
 		};
@@ -138,8 +237,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF47BD1D1CC58082004BBB9B /* ViewController.swift in Sources */,
+				AF47BD471CC7F2A2004BBB9B /* CategoryViewController.swift in Sources */,
+				AF47BD491CC7F2A8004BBB9B /* UploadViewController.swift in Sources */,
+				AF47BD3E1CC7F213004BBB9B /* Item+CoreDataProperties.m in Sources */,
+				AF47BD3D1CC7F213004BBB9B /* User.m in Sources */,
+				AF47BD1D1CC58082004BBB9B /* HomeViewController.swift in Sources */,
 				AF47BD231CC58082004BBB9B /* closetX.xcdatamodeld in Sources */,
+				AF47BD4B1CC7F2AE004BBB9B /* ProductViewController.swift in Sources */,
+				AF47BD3C1CC7F213004BBB9B /* User+CoreDataProperties.m in Sources */,
+				AF47BD4D1CC7F2C2004BBB9B /* SearchViewController.swift in Sources */,
+				AF47BD3F1CC7F213004BBB9B /* Item.m in Sources */,
+				AF47BD431CC7F286004BBB9B /* ProfileViewController.swift in Sources */,
+				AF47BD451CC7F29A004BBB9B /* FollowingViewController.swift in Sources */,
 				AF47BD1B1CC58082004BBB9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,10 +364,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = closetX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laceyvu.closetX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "closetX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -266,10 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = closetX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laceyvu.closetX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "closetX-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -292,6 +406,7 @@
 				AF47BD2E1CC58082004BBB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
