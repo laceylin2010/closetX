@@ -19,6 +19,7 @@ class FollowingViewController: UIViewController, UICollectionViewDelegate, UICol
     {
         super.viewDidLoad()
         setupImagesForShirts()
+        
 //        self.shirtCollectionView.collectionViewLayout = FollowingCollectionFlowLayout ()
 
         
