@@ -24,6 +24,12 @@
 		AF47BD491CC7F2A8004BBB9B /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */; };
 		AF47BD4B1CC7F2AE004BBB9B /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD4A1CC7F2AE004BBB9B /* ProductViewController.swift */; };
 		AF47BD4D1CC7F2C2004BBB9B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD4C1CC7F2C2004BBB9B /* SearchViewController.swift */; };
+		AF47BD541CC946C2004BBB9B /* 0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD4F1CC946C2004BBB9B /* 0.JPG */; };
+		AF47BD551CC946C2004BBB9B /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD501CC946C2004BBB9B /* 1.JPG */; };
+		AF47BD561CC946C2004BBB9B /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD511CC946C2004BBB9B /* 2.JPG */; };
+		AF47BD571CC946C2004BBB9B /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD521CC946C2004BBB9B /* 3.JPG */; };
+		AF47BD581CC946C2004BBB9B /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD531CC946C2004BBB9B /* 4.JPG */; };
+		AF47BD5A1CC94771004BBB9B /* FollowersCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,12 @@
 		AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		AF47BD4A1CC7F2AE004BBB9B /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		AF47BD4C1CC7F2C2004BBB9B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AF47BD4F1CC946C2004BBB9B /* 0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.JPG; sourceTree = "<group>"; };
+		AF47BD501CC946C2004BBB9B /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		AF47BD511CC946C2004BBB9B /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		AF47BD521CC946C2004BBB9B /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
+		AF47BD531CC946C2004BBB9B /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,7 @@
 				AF47BD4C1CC7F2C2004BBB9B /* SearchViewController.swift */,
 				AF47BD421CC7F286004BBB9B /* ProfileViewController.swift */,
 				AF47BD441CC7F29A004BBB9B /* FollowingViewController.swift */,
+				AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */,
 				AF47BD461CC7F2A2004BBB9B /* CategoryViewController.swift */,
 				AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */,
 				AF47BD4A1CC7F2AE004BBB9B /* ProductViewController.swift */,
@@ -164,6 +177,11 @@
 		AF47BD4E1CC7FEF4004BBB9B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AF47BD4F1CC946C2004BBB9B /* 0.JPG */,
+				AF47BD501CC946C2004BBB9B /* 1.JPG */,
+				AF47BD511CC946C2004BBB9B /* 2.JPG */,
+				AF47BD521CC946C2004BBB9B /* 3.JPG */,
+				AF47BD531CC946C2004BBB9B /* 4.JPG */,
 			);
 			name = Images;
 			path = closetX;
@@ -228,8 +246,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF47BD281CC58082004BBB9B /* LaunchScreen.storyboard in Resources */,
+				AF47BD581CC946C2004BBB9B /* 4.JPG in Resources */,
+				AF47BD571CC946C2004BBB9B /* 3.JPG in Resources */,
 				AF47BD251CC58082004BBB9B /* Assets.xcassets in Resources */,
 				AF47BD201CC58082004BBB9B /* Main.storyboard in Resources */,
+				AF47BD561CC946C2004BBB9B /* 2.JPG in Resources */,
+				AF47BD551CC946C2004BBB9B /* 1.JPG in Resources */,
+				AF47BD541CC946C2004BBB9B /* 0.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +275,7 @@
 				AF47BD4D1CC7F2C2004BBB9B /* SearchViewController.swift in Sources */,
 				AF47BD3F1CC7F213004BBB9B /* Item.m in Sources */,
 				AF47BD431CC7F286004BBB9B /* ProfileViewController.swift in Sources */,
+				AF47BD5A1CC94771004BBB9B /* FollowersCollectionCell.swift in Sources */,
 				AF47BD451CC7F29A004BBB9B /* FollowingViewController.swift in Sources */,
 				AF47BD1B1CC58082004BBB9B /* AppDelegate.swift in Sources */,
 			);
