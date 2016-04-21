@@ -19,6 +19,8 @@ class FollowingViewController: UIViewController, UICollectionViewDelegate, UICol
     {
         super.viewDidLoad()
         setupImagesForShirts()
+        
+//        self.shirtCollectionView.collectionViewLayout = FollowingCollectionFlowLayout ()
 
         
     }
@@ -26,6 +28,14 @@ class FollowingViewController: UIViewController, UICollectionViewDelegate, UICol
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
+        
+    }
+    
+    
+    func scrollingView()
+    {
+      self.shirtCollectionView.reloadData()
+       
         
     }
 

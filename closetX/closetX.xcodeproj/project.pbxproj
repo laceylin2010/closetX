@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		89351F4D1CC80BDB00708445 /* AccessDeniedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89351F4C1CC80BDB00708445 /* AccessDeniedViewController.swift */; };
+		89351F4F1CC964B200708445 /* FollowingCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89351F4E1CC964B200708445 /* FollowingCollectionFlowLayout.swift */; };
 		AF47BD1B1CC58082004BBB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD1A1CC58082004BBB9B /* AppDelegate.swift */; };
 		AF47BD1D1CC58082004BBB9B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD1C1CC58082004BBB9B /* HomeViewController.swift */; };
 		AF47BD201CC58082004BBB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD1E1CC58082004BBB9B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		89351F4C1CC80BDB00708445 /* AccessDeniedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessDeniedViewController.swift; sourceTree = "<group>"; };
+		89351F4E1CC964B200708445 /* FollowingCollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingCollectionFlowLayout.swift; sourceTree = "<group>"; };
 		AF47BD171CC58082004BBB9B /* closetX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = closetX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF47BD1A1CC58082004BBB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF47BD1C1CC58082004BBB9B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				AF47BD4C1CC7F2C2004BBB9B /* SearchViewController.swift */,
 				AF47BD421CC7F286004BBB9B /* ProfileViewController.swift */,
 				AF47BD441CC7F29A004BBB9B /* FollowingViewController.swift */,
+				89351F4E1CC964B200708445 /* FollowingCollectionFlowLayout.swift */,
 				AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */,
 				AF47BD461CC7F2A2004BBB9B /* CategoryViewController.swift */,
 				AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */,
@@ -272,6 +275,7 @@
 				AF47BD231CC58082004BBB9B /* closetX.xcdatamodeld in Sources */,
 				AF47BD4B1CC7F2AE004BBB9B /* ProductViewController.swift in Sources */,
 				AF47BD3C1CC7F213004BBB9B /* User+CoreDataProperties.m in Sources */,
+				89351F4F1CC964B200708445 /* FollowingCollectionFlowLayout.swift in Sources */,
 				AF47BD4D1CC7F2C2004BBB9B /* SearchViewController.swift in Sources */,
 				AF47BD3F1CC7F213004BBB9B /* Item.m in Sources */,
 				AF47BD431CC7F286004BBB9B /* ProfileViewController.swift in Sources */,

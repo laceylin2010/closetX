@@ -17,6 +17,6 @@ class FollowersCollectionCell: UICollectionViewCell
             shirtsImageView.image = image
         }
     }
-    
+
     
 }
