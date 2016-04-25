@@ -642,7 +642,7 @@
         <!--Home View Controller-->
         <scene sceneID="jDE-IM-TBU">
             <objects>
-                <viewController id="8Fd-J8-8uB" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController id="8Fd-J8-8uB" customClass="HomeViewController" customModule="closetX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Us9-l7-La9"/>
                         <viewControllerLayoutGuide type="bottom" id="eNX-gk-MN2"/>
@@ -664,6 +664,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5O-6i-8cl">
                                 <rect key="frame" x="281" y="285" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginAction:" destination="8Fd-J8-8uB" eventType="touchUpInside" id="3UV-xG-37g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mci-m6-wFq">
                                 <rect key="frame" x="275" y="550" width="50" height="30"/>
@@ -684,6 +687,10 @@
                             <constraint firstItem="f5Y-cb-gc0" firstAttribute="centerX" secondItem="T4X-mk-QpL" secondAttribute="centerX" id="xcB-ZT-LcV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginPasswordTextField" destination="HHb-sZ-6iG" id="63h-Xi-TyK"/>
+                        <outlet property="loginUsernameTextField" destination="f5Y-cb-gc0" id="KGK-ht-ahG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Vr-pp-d83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
