@@ -13,18 +13,52 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var homeViewController: HomeViewController?
+    var tabbarController: UITabBarController?
+    var navigationController: UINavigationController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.style()    
+        self.style()
+        self.checkTokenStatus() 
         // Override point for customization after application launch.
         return true
+    }
+    
+ 
+    func checkTokenStatus(){
+        do{
+            let _ = try OAuth.shared.accessToken()
+        } catch _ { self.presentLoginViewController() }
     }
     
     func style ()
     {
         UIApplication.sharedApplication().statusBarStyle = .LightContent
     }
+    
+    func presentLoginViewController()
+    {
+        guard let tabbarController = self.window?.rootViewController as? UITabBarController else { fatalError("root VC Changes") }
+        guard let storyboard = tabbarController.storyboard else { fatalError("how does VC not have Storybaord") }
+        guard let homeViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController") as? HomeViewController else { fatalError() }
+        
+        guard let mainNavigationController = tabbarController.viewControllers?.first as? UINavigationController else { return }
+        
+        mainNavigationController.setNavigationBarHidden(true, animated: false)
+        tabbarController.tabBar.hidden = true
+        
+        guard let mainViewController = mainNavigationController.viewControllers.first as? ProfileViewController else { return }
+        
+        mainViewController.addChildViewController(homeViewController)
+        mainViewController.view.addSubview(homeViewController.view)
+        homeViewController.didMoveToParentViewController(tabbarController)
+        
+        self.homeViewController = homeViewController
+
+    }
+    
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
