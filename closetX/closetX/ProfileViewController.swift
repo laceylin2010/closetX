@@ -15,7 +15,8 @@ class ProfileViewController: UIViewController
     {
         super.viewDidLoad()
         self.navigationController?.setNavigationBarHidden(true, animated: true)
-        self.tabBarController?.tabBar.translucent = false
+        self.tabBarController?.tabBar.translucent = true
+        self.tabBarController?.tabBar.backgroundColor = UIColor.whiteColor()
     }
 
     override func didReceiveMemoryWarning()

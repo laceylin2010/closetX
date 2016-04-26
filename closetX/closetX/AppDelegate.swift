@@ -25,17 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-//    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool
-//    {
-//        OAuth.shared.loginToApp("", password: <#T##String#>) { (success) in
-//            if success{
-//         
-//            }
-//        }
-//   
-//        return true
-//    }
-//  
+ 
     func checkTokenStatus(){
         do{
             let _ = try OAuth.shared.accessToken()
