@@ -25,34 +25,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool
-    {
-        guard let homeViewController = self.homeViewController else { return }
-        guard let tabbarController = self.tabbarController else { return }
-        guard let navigationController = self.navigationController else { return }
-        guard let mainViewController = navigationController.viewControllers.first as? ProfileViewController else {fatalError("homeVC not directory")}
-        UIView.animateWithDuration(0.3, animations: { () -> Void in
-            homeViewController.view.alpha = 0.0
-            }, completion: { (finished) -> Void in
-                
-                navigationController.setNavigationBarHidden(true, animated: false)
-                tabbarController.tabBar.hidden = false
-                homeViewController.view.removeFromSuperview()
-                homeViewController.removeFromParentViewController()
-        })
-        return true
-    }
-    
-    
-    func style ()
-    {
-        UIApplication.sharedApplication().statusBarStyle = .LightContent
-    }
-    
+//    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool
+//    {
+//        OAuth.shared.loginToApp("", password: <#T##String#>) { (success) in
+//            if success{
+//         
+//            }
+//        }
+//   
+//        return true
+//    }
+//  
     func checkTokenStatus(){
         do{
             let _ = try OAuth.shared.accessToken()
         } catch _ { self.presentLoginViewController() }
+    }
+    
+    func style ()
+    {
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
     }
     
     func presentLoginViewController()

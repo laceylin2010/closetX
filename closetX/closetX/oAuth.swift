@@ -8,6 +8,8 @@
 
 import UIKit
 
+typealias OAuthCompletion = (success: Bool) -> ()
+
 enum Errors: ErrorType
 {
     case MissingToken(String)
@@ -22,7 +24,7 @@ class OAuth {
     static let shared = OAuth()
     private init () {}
     
-    func loginToApp(username: String, password: String)
+    func loginToApp(username: String, password: String, completion: OAuthCompletion)
     {
         let urlPath = "https://closetx.herokuapp.com/api/login"
         let url = NSURL(string: urlPath)
@@ -56,9 +58,10 @@ class OAuth {
                 }
             } catch let error as NSError {
                 print(error.localizedDescription)
-               
+                completion(success: false)
             }
         }
+        completion(success: true)
         task.resume()
         
     }

@@ -691,11 +691,12 @@
                     <connections>
                         <outlet property="loginPasswordTextField" destination="HHb-sZ-6iG" id="63h-Xi-TyK"/>
                         <outlet property="loginUsernameTextField" destination="f5Y-cb-gc0" id="KGK-ht-ahG"/>
+                        <segue destination="ipF-oq-G9Y" kind="show" identifier="tabbarSegue" id="JPn-sg-zm1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Vr-pp-d83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-986" y="265"/>
+            <point key="canvasLocation" x="-263" y="-419"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d0R-jR-SLa">
@@ -777,7 +778,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QL9-BC-PUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-273" y="265"/>
+            <point key="canvasLocation" x="-263" y="295"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MQy-Og-IES">

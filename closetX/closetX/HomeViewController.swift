@@ -29,20 +29,23 @@ class HomeViewController: UIViewController
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+     
 
     }
-    
 
     
     @IBAction func loginAction(sender: UIButton)
     {
         if let password = self.loginPasswordTextField.text{
             if let username = self.loginUsernameTextField.text{
-            OAuth.shared.loginToApp(username, password: password)
-            self.dismissViewControllerAnimated(true, completion: nil)
-           print(password)
+            OAuth.shared.loginToApp(username, password: password, completion: { (success) in
+                if success{
+                self.performSegueWithIdentifier("tabbarSegue", sender: nil)
+                }
+            })
+       
             }
-        }else{print("error")}
+        } else{print("error")}
         
     }
  
