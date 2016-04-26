@@ -36,10 +36,14 @@ class HomeViewController: UIViewController
     
     @IBAction func loginAction(sender: UIButton)
     {
-         let username = self.loginUsernameTextField.text
-         let password = self.loginPasswordTextField.text
-        OAuth.shared.loginToApp(username!, password: password!)
-          self.dismissViewControllerAnimated(true, completion: nil)
+        if let password = self.loginPasswordTextField.text{
+            if let username = self.loginUsernameTextField.text{
+            OAuth.shared.loginToApp(username, password: password)
+            self.dismissViewControllerAnimated(true, completion: nil)
+           print(password)
+            }
+        }else{print("error")}
+        
     }
  
 }

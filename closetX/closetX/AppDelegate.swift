@@ -14,12 +14,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var homeViewController: HomeViewController?
+    var tabbarController: UITabBarController?
+    var navigationController: UINavigationController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         self.style()
         self.checkTokenStatus() 
         // Override point for customization after application launch.
+        return true
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool
+    {
+        guard let homeViewController = self.homeViewController else { return }
+        guard let tabbarController = self.tabbarController else { return }
+        guard let navigationController = self.navigationController else { return }
+        guard let mainViewController = navigationController.viewControllers.first as? ProfileViewController else {fatalError("homeVC not directory")}
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
+            homeViewController.view.alpha = 0.0
+            }, completion: { (finished) -> Void in
+                
+                navigationController.setNavigationBarHidden(true, animated: false)
+                tabbarController.tabBar.hidden = false
+                homeViewController.view.removeFromSuperview()
+                homeViewController.removeFromParentViewController()
+        })
         return true
     }
     
