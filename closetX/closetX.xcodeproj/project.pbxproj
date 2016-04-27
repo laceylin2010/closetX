@@ -32,6 +32,7 @@
 		AF47BD571CC946C2004BBB9B /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD521CC946C2004BBB9B /* 3.JPG */; };
 		AF47BD581CC946C2004BBB9B /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD531CC946C2004BBB9B /* 4.JPG */; };
 		AF47BD5A1CC94771004BBB9B /* FollowersCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */; };
+		AF87AC951CD00ACC0015C3D6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87AC941CD00ACC0015C3D6 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		AF47BD521CC946C2004BBB9B /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
 		AF47BD531CC946C2004BBB9B /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
 		AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersCollectionCell.swift; sourceTree = "<group>"; };
+		AF87AC941CD00ACC0015C3D6 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				AF47BD481CC7F2A8004BBB9B /* UploadViewController.swift */,
 				AF47BD4A1CC7F2AE004BBB9B /* ProductViewController.swift */,
 				89351F4C1CC80BDB00708445 /* AccessDeniedViewController.swift */,
+				AF87AC941CD00ACC0015C3D6 /* SignUpViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				AF47BD3E1CC7F213004BBB9B /* Item+CoreDataProperties.m in Sources */,
 				AF47BD3D1CC7F213004BBB9B /* User.m in Sources */,
 				AF47BD1D1CC58082004BBB9B /* HomeViewController.swift in Sources */,
+				AF87AC951CD00ACC0015C3D6 /* SignUpViewController.swift in Sources */,
 				AF47BD231CC58082004BBB9B /* closetX.xcdatamodeld in Sources */,
 				AF47BD4B1CC7F2AE004BBB9B /* ProductViewController.swift in Sources */,
 				AF47BD3C1CC7F213004BBB9B /* User+CoreDataProperties.m in Sources */,

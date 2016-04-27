@@ -154,7 +154,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shirtImageCell" id="urA-ag-1h5" customClass="FollowersCollectionCell" customModule="closetX" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -196,7 +196,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shortsSkirtsImageCell" id="3Lf-qZ-gRE">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -231,7 +231,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="accessoriesImageCell" id="MrS-zs-j5I">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -275,7 +275,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shoeImageCell" id="93W-1G-k6P">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -322,7 +322,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="jeansImageCell" id="zY8-b0-Y08">
-                                                        <rect key="frame" x="0.0" y="-2" width="214" height="240"/>
+                                                        <rect key="frame" x="0.0" y="-1.5" width="214" height="240"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="214" height="240"/>
@@ -357,7 +357,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="dressImageView" id="GBy-Ph-Upz">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -413,7 +413,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="outwearImageCell" id="kR5-NO-6zs">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="229"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="229"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="229"/>
@@ -672,6 +672,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mci-m6-wFq">
                                 <rect key="frame" x="275" y="550" width="50" height="30"/>
                                 <state key="normal" title="sign up"/>
+                                <connections>
+                                    <segue destination="gHv-ti-Dwr" kind="show" id="3eb-Vb-IEP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -780,10 +783,10 @@
             </objects>
             <point key="canvasLocation" x="-263" y="295"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="MQy-Og-IES">
             <objects>
-                <viewController id="gHv-ti-Dwr" sceneMemberID="viewController">
+                <viewController id="gHv-ti-Dwr" customClass="SignUpViewController" customModule="closetX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O3X-XQ-L5N"/>
                         <viewControllerLayoutGuide type="bottom" id="Mgu-mh-num"/>
@@ -791,12 +794,95 @@
                     <view key="view" contentMode="scaleToFill" id="Whl-dz-HmG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MGJ-Re-bMV">
+                                <rect key="frame" x="66" y="78" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jmu-Io-v6J">
+                                <rect key="frame" x="66" y="116" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VXZ-wN-4wq">
+                                <rect key="frame" x="66" y="192" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zKE-Tg-qsw">
+                                <rect key="frame" x="66" y="230" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xXI-v7-iH9">
+                                <rect key="frame" x="66" y="154" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QLC-8S-3VB">
+                                <rect key="frame" x="66" y="268" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pU-Mh-a3K">
+                                <rect key="frame" x="277" y="345" width="46" height="30"/>
+                                <state key="normal" title="Create"/>
+                                <connections>
+                                    <action selector="createUserAction:" destination="gHv-ti-Dwr" eventType="touchUpInside" id="Wjl-66-0Wa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xXI-v7-iH9" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="2HS-5l-b6y"/>
+                            <constraint firstAttribute="trailing" secondItem="Jmu-Io-v6J" secondAttribute="trailing" constant="66" id="2TM-MF-uhm"/>
+                            <constraint firstItem="Jmu-Io-v6J" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="3Mn-13-6P5"/>
+                            <constraint firstItem="QLC-8S-3VB" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="4Wz-mI-6Uw"/>
+                            <constraint firstItem="Jmu-Io-v6J" firstAttribute="top" secondItem="MGJ-Re-bMV" secondAttribute="bottom" constant="8" id="8hZ-rb-gDC"/>
+                            <constraint firstItem="VXZ-wN-4wq" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="FfA-SH-3H2"/>
+                            <constraint firstItem="3pU-Mh-a3K" firstAttribute="centerX" secondItem="QLC-8S-3VB" secondAttribute="centerX" id="GSC-9y-xKk"/>
+                            <constraint firstItem="VXZ-wN-4wq" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="OsW-7W-2ml"/>
+                            <constraint firstItem="zKE-Tg-qsw" firstAttribute="top" secondItem="VXZ-wN-4wq" secondAttribute="bottom" constant="8" id="Q1J-U6-ZjR"/>
+                            <constraint firstAttribute="trailing" secondItem="QLC-8S-3VB" secondAttribute="trailing" constant="66" id="SM9-cN-XUw"/>
+                            <constraint firstItem="QLC-8S-3VB" firstAttribute="top" secondItem="zKE-Tg-qsw" secondAttribute="bottom" constant="8" id="V7i-JL-kzk"/>
+                            <constraint firstItem="xXI-v7-iH9" firstAttribute="top" secondItem="Jmu-Io-v6J" secondAttribute="bottom" constant="8" id="XNe-i5-dxF"/>
+                            <constraint firstItem="zKE-Tg-qsw" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="erT-It-4ik"/>
+                            <constraint firstAttribute="trailing" secondItem="xXI-v7-iH9" secondAttribute="trailing" constant="66" id="fAM-9t-r4r"/>
+                            <constraint firstItem="Mgu-mh-num" firstAttribute="top" secondItem="3pU-Mh-a3K" secondAttribute="bottom" constant="225" id="g90-KZ-2iY"/>
+                            <constraint firstAttribute="trailing" secondItem="zKE-Tg-qsw" secondAttribute="trailing" constant="66" id="hjl-2P-lQU"/>
+                            <constraint firstAttribute="trailing" secondItem="MGJ-Re-bMV" secondAttribute="trailing" constant="66" id="jlJ-jS-YFv"/>
+                            <constraint firstAttribute="trailing" secondItem="VXZ-wN-4wq" secondAttribute="trailing" constant="66" id="kCP-JR-vDm"/>
+                            <constraint firstItem="MGJ-Re-bMV" firstAttribute="top" secondItem="O3X-XQ-L5N" secondAttribute="bottom" constant="58" id="lWs-eC-1EU"/>
+                            <constraint firstAttribute="trailing" secondItem="zKE-Tg-qsw" secondAttribute="trailing" constant="66" id="nCE-X9-wg5"/>
+                            <constraint firstItem="MGJ-Re-bMV" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="o3i-vr-pL1"/>
+                            <constraint firstItem="VXZ-wN-4wq" firstAttribute="top" secondItem="xXI-v7-iH9" secondAttribute="bottom" constant="8" id="pGG-RT-Blv"/>
+                            <constraint firstAttribute="trailing" secondItem="VXZ-wN-4wq" secondAttribute="trailing" constant="66" id="rQY-j8-iwb"/>
+                            <constraint firstItem="QLC-8S-3VB" firstAttribute="top" secondItem="zKE-Tg-qsw" secondAttribute="bottom" constant="8" id="tn4-lw-XTT"/>
+                            <constraint firstItem="zKE-Tg-qsw" firstAttribute="top" secondItem="VXZ-wN-4wq" secondAttribute="bottom" constant="8" id="y8B-0B-iZw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FfA-SH-3H2"/>
+                                <exclude reference="rQY-j8-iwb"/>
+                                <exclude reference="Q1J-U6-ZjR"/>
+                                <exclude reference="hjl-2P-lQU"/>
+                                <exclude reference="tn4-lw-XTT"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="confirmPasswordTextLabel" destination="QLC-8S-3VB" id="d1V-Qj-jAz"/>
+                        <outlet property="emailTextLabel" destination="xXI-v7-iH9" id="tUY-f3-Klu"/>
+                        <outlet property="firstNameTextLabel" destination="MGJ-Re-bMV" id="Juh-hv-QZU"/>
+                        <outlet property="lastNameTextLabel" destination="Jmu-Io-v6J" id="sbn-MR-py9"/>
+                        <outlet property="passwordTextLabel" destination="zKE-Tg-qsw" id="r2G-hP-T68"/>
+                        <outlet property="usernameTextLabel" destination="VXZ-wN-4wq" id="f2c-Z8-xAv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="arT-oY-O5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-324" y="1123"/>
+            <point key="canvasLocation" x="421" y="-813"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Ip5-bn-X1p">
