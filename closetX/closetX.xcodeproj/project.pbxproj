@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890EF23A1CF4ED3F00DD8477 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890EF2331CF4ED3F00DD8477 /* Bolts.framework */; };
+		890EF23B1CF4ED3F00DD8477 /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 890EF2331CF4ED3F00DD8477 /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		890EF23C1CF4ED3F00DD8477 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890EF2381CF4ED3F00DD8477 /* Parse.framework */; };
+		890EF23D1CF4ED3F00DD8477 /* Parse.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 890EF2381CF4ED3F00DD8477 /* Parse.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		89351F4D1CC80BDB00708445 /* AccessDeniedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89351F4C1CC80BDB00708445 /* AccessDeniedViewController.swift */; };
 		89351F4F1CC964B200708445 /* FollowingCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89351F4E1CC964B200708445 /* FollowingCollectionFlowLayout.swift */; };
 		AF47BD1B1CC58082004BBB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD1A1CC58082004BBB9B /* AppDelegate.swift */; };
@@ -33,7 +37,32 @@
 		AF47BD5A1CC94771004BBB9B /* FollowersCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		890EF23E1CF4ED3F00DD8477 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				890EF23D1CF4ED3F00DD8477 /* Parse.framework in Embed Frameworks */,
+				890EF23B1CF4ED3F00DD8477 /* Bolts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		890EF2301CF4ED3F00DD8477 /* 9AAFA3F2-15EA-3638-B67C-68B4D13CDD9A.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "9AAFA3F2-15EA-3638-B67C-68B4D13CDD9A.bcsymbolmap"; path = "Carthage/Build/iOS/9AAFA3F2-15EA-3638-B67C-68B4D13CDD9A.bcsymbolmap"; sourceTree = "<group>"; };
+		890EF2311CF4ED3F00DD8477 /* 9B0F7CF0-18A1-3E7F-A42B-EDEA0B85936F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "9B0F7CF0-18A1-3E7F-A42B-EDEA0B85936F.bcsymbolmap"; path = "Carthage/Build/iOS/9B0F7CF0-18A1-3E7F-A42B-EDEA0B85936F.bcsymbolmap"; sourceTree = "<group>"; };
+		890EF2321CF4ED3F00DD8477 /* 201F086F-5EFC-3A55-A327-9E9FCA9DA063.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "201F086F-5EFC-3A55-A327-9E9FCA9DA063.bcsymbolmap"; path = "Carthage/Build/iOS/201F086F-5EFC-3A55-A327-9E9FCA9DA063.bcsymbolmap"; sourceTree = "<group>"; };
+		890EF2331CF4ED3F00DD8477 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		890EF2341CF4ED3F00DD8477 /* Bolts.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Bolts.framework.dSYM; path = Carthage/Build/iOS/Bolts.framework.dSYM; sourceTree = "<group>"; };
+		890EF2351CF4ED3F00DD8477 /* C44FCE6D-926D-3FFB-BF61-FBC68EAD490F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "C44FCE6D-926D-3FFB-BF61-FBC68EAD490F.bcsymbolmap"; path = "Carthage/Build/iOS/C44FCE6D-926D-3FFB-BF61-FBC68EAD490F.bcsymbolmap"; sourceTree = "<group>"; };
+		890EF2361CF4ED3F00DD8477 /* DD76E220-B027-3F00-88BC-774E9EEBF8B1.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "DD76E220-B027-3F00-88BC-774E9EEBF8B1.bcsymbolmap"; path = "Carthage/Build/iOS/DD76E220-B027-3F00-88BC-774E9EEBF8B1.bcsymbolmap"; sourceTree = "<group>"; };
+		890EF2371CF4ED3F00DD8477 /* EA6963CE-790F-3001-A249-B206B79316B2.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "EA6963CE-790F-3001-A249-B206B79316B2.bcsymbolmap"; path = "Carthage/Build/iOS/EA6963CE-790F-3001-A249-B206B79316B2.bcsymbolmap"; sourceTree = "<group>"; };
+		890EF2381CF4ED3F00DD8477 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Carthage/Build/iOS/Parse.framework; sourceTree = "<group>"; };
+		890EF2391CF4ED3F00DD8477 /* Parse.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Parse.framework.dSYM; path = Carthage/Build/iOS/Parse.framework.dSYM; sourceTree = "<group>"; };
 		89351F4C1CC80BDB00708445 /* AccessDeniedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessDeniedViewController.swift; sourceTree = "<group>"; };
 		89351F4E1CC964B200708445 /* FollowingCollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingCollectionFlowLayout.swift; sourceTree = "<group>"; };
 		AF47BD171CC58082004BBB9B /* closetX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = closetX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890EF23C1CF4ED3F00DD8477 /* Parse.framework in Frameworks */,
+				890EF23A1CF4ED3F00DD8477 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,16 @@
 		AF47BD0E1CC58082004BBB9B = {
 			isa = PBXGroup;
 			children = (
+				890EF2301CF4ED3F00DD8477 /* 9AAFA3F2-15EA-3638-B67C-68B4D13CDD9A.bcsymbolmap */,
+				890EF2311CF4ED3F00DD8477 /* 9B0F7CF0-18A1-3E7F-A42B-EDEA0B85936F.bcsymbolmap */,
+				890EF2321CF4ED3F00DD8477 /* 201F086F-5EFC-3A55-A327-9E9FCA9DA063.bcsymbolmap */,
+				890EF2331CF4ED3F00DD8477 /* Bolts.framework */,
+				890EF2341CF4ED3F00DD8477 /* Bolts.framework.dSYM */,
+				890EF2351CF4ED3F00DD8477 /* C44FCE6D-926D-3FFB-BF61-FBC68EAD490F.bcsymbolmap */,
+				890EF2361CF4ED3F00DD8477 /* DD76E220-B027-3F00-88BC-774E9EEBF8B1.bcsymbolmap */,
+				890EF2371CF4ED3F00DD8477 /* EA6963CE-790F-3001-A249-B206B79316B2.bcsymbolmap */,
+				890EF2381CF4ED3F00DD8477 /* Parse.framework */,
+				890EF2391CF4ED3F00DD8477 /* Parse.framework.dSYM */,
 				AF47BD191CC58082004BBB9B /* closetX */,
 				AF47BD4E1CC7FEF4004BBB9B /* Images */,
 				AF47BD181CC58082004BBB9B /* Products */,
@@ -200,6 +241,8 @@
 				AF47BD131CC58082004BBB9B /* Sources */,
 				AF47BD141CC58082004BBB9B /* Frameworks */,
 				AF47BD151CC58082004BBB9B /* Resources */,
+				890EF23E1CF4ED3F00DD8477 /* Embed Frameworks */,
+				890EF2411CF4EDC000DD8477 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -260,6 +303,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		890EF2411CF4EDC000DD8477 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Box.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bin/bash/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF47BD131CC58082004BBB9B /* Sources */ = {
@@ -397,6 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = closetX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laceyvu.closetX;
@@ -411,6 +477,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = closetX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laceyvu.closetX;
