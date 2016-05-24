@@ -8,10 +8,16 @@
 
 import UIKit
 
+protocol HomeViewControllerDelegate: class
+{
+    func homeViewControllerDidFinishLogin()
+    
+}
+
 class HomeViewController: UIViewController
 {
-
     
+    weak var delegate: HomeViewControllerDelegate?
     @IBOutlet weak var loginPasswordTextField: UITextField!
     @IBOutlet weak var loginUsernameTextField: UITextField!
  
@@ -38,9 +44,13 @@ class HomeViewController: UIViewController
     {
         if let password = self.loginPasswordTextField.text{
             if let username = self.loginUsernameTextField.text{
-            OAuth.shared.loginToApp(username, password: password, completion: { (success) in
+                OAuth.shared.loginToApp(username, password: password, completion: { (success) in
                 if success{
-                self.performSegueWithIdentifier("tabbarSegue", sender: nil)
+                    self.delegate?.homeViewControllerDidFinishLogin()
+                } else {
+                    let alertController = UIAlertController(title: "Error", message: "Invalid Username or Password", preferredStyle: .Alert)
+                    alertController.addAction(UIAlertAction(title: "Ok", style: .Cancel, handler: nil))
+                    self.presentViewController(alertController, animated: true, completion: nil)
                 }
             })
        

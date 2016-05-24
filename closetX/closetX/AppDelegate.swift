@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, HomeViewControllerDelegate {
 
     var window: UIWindow?
     var homeViewController: HomeViewController?
@@ -29,7 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func checkTokenStatus(){
         do{
             let _ = try OAuth.shared.accessToken()
-        } catch _ { self.presentLoginViewController() }
+        } catch _ {
+            
+            self.presentLoginViewController() }
+        
     }
     
     func style ()
@@ -42,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let tabbarController = self.window?.rootViewController as? UITabBarController else { fatalError("root VC Changes") }
         guard let storyboard = tabbarController.storyboard else { fatalError("how does VC not have Storybaord") }
         guard let homeViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController") as? HomeViewController else { fatalError() }
+        homeViewController.delegate = self
         
         guard let mainNavigationController = tabbarController.viewControllers?.first as? UINavigationController else { return }
         
@@ -55,7 +59,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         homeViewController.didMoveToParentViewController(tabbarController)
         
         self.homeViewController = homeViewController
+        self.tabbarController = tabbarController
 
+    }
+    
+    func homeViewControllerDidFinishLogin()
+    {
+        if let homeViewController = self.homeViewController{
+            homeViewController.view.removeFromSuperview()
+            homeViewController.removeFromParentViewController()
+            self.tabbarController?.tabBar.hidden = false
+        }
+        
     }
     
     

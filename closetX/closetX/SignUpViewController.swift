@@ -44,40 +44,40 @@ class SignUpViewController: UIViewController
 //            "password" : self.passwordTextLabel.text!,
 //            "confirmpassword" : self.confirmPasswordTextLabel.text!
 //            ]
-
-        let postInfo = "first=\(self.firstNameTextLabel.text)&last=\(self.lastNameTextLabel.text)&email=\(self.emailTextLabel.text)&username=\(self.usernameTextLabel.text)&password=\(self.passwordTextLabel.text)&confirmpassword=\(self.confirmPasswordTextLabel.text)"
-        let postData = postInfo.dataUsingEncoding(NSUTF8StringEncoding)
-        
-        let urlPath = NSURL(string: "https://closetx.herokuapp.com/api/signup")!
-        let request = NSMutableURLRequest(URL: urlPath)
-        request.HTTPMethod = "POST"
-        request.HTTPBody = postData
+//
+//        let postInfo = "first=\(self.firstNameTextLabel.text)&last=\(self.lastNameTextLabel.text)&email=\(self.emailTextLabel.text)&username=\(self.usernameTextLabel.text)&password=\(self.passwordTextLabel.text)&confirmpassword=\(self.confirmPasswordTextLabel.text)"
+//        let postData = postInfo.dataUsingEncoding(NSUTF8StringEncoding)
+//        
+//        let urlPath = NSURL(string: "https://closetx.herokuapp.com/api/signup")!
+//        let request = NSMutableURLRequest(URL: urlPath)
+//        request.HTTPMethod = "POST"
+//        request.HTTPBody = postData
 
 //        request.setValue("application/json", forHTTPHeaderField: "Accept")
 //        request.setValue("application/x-wwww-form-urlencoded", forHTTPHeaderField: "Content-Type")
         
         
-        let task = NSURLSession.sharedSession().dataTaskWithRequest(request){
-            data, response, error in
-            if error != nil {
-                return
-            } else {
-                print(request)
-            }
-            
-            let response = NSString(data: data!, encoding: NSUTF8StringEncoding)
-            print(response)
-            do {
-                if let convertinJSON = try NSJSONSerialization.dataWithJSONObject(postInfo, options: .PrettyPrinted) {
-                    print(convertinJSON)
-                } else {
-                    print("Something is wrong")
-                }
-            } catch let error as NSError {
-                print(error.localizedDescription)
-            }
-        }
-        task.resume()
+//        let task = NSURLSession.sharedSession().dataTaskWithRequest(request){
+//            data, response, error in
+//            if error != nil {
+//                return
+//            } else {
+//                print(request)
+//            }
+//            
+//            let response = NSString(data: data!, encoding: NSUTF8StringEncoding)
+//            print(response)
+//            do {
+//                if let convertinJSON = try NSJSONSerialization.dataWithJSONObject(postInfo, options: .PrettyPrinted) {
+//                    print(convertinJSON)
+//                } else {
+//                    print("Something is wrong")
+//                }
+//            } catch let error as NSError {
+//                print(error.localizedDescription)
+//            }
+//        }
+//        task.resume()
     }
     
 }

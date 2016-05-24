@@ -52,16 +52,19 @@ class OAuth {
                     if let token = convertingJSON["token"] as? String{
                         OAuth.shared.saveAccessTokenToKeychain(token)
                         print("login saved")
-                    } else {
-                        print ("Token not saved")
+                        NSOperationQueue.mainQueue().addOperationWithBlock({ 
+                             completion(success: true)
+                        })
+                        
                     }
+                    
                 }
             } catch let error as NSError {
                 print(error.localizedDescription)
                 completion(success: false)
             }
         }
-        completion(success: true)
+        
         task.resume()
         
     }
