@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ipF-oq-G9Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ipF-oq-G9Y">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -154,7 +154,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shirtImageCell" id="urA-ag-1h5" customClass="FollowersCollectionCell" customModule="closetX" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -196,7 +196,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shortsSkirtsImageCell" id="3Lf-qZ-gRE">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -231,7 +231,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="accessoriesImageCell" id="MrS-zs-j5I">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -275,7 +275,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shoeImageCell" id="93W-1G-k6P">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -322,7 +322,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="jeansImageCell" id="zY8-b0-Y08">
-                                                        <rect key="frame" x="0.0" y="-2" width="214" height="240"/>
+                                                        <rect key="frame" x="0.0" y="-1.5" width="214" height="240"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="214" height="240"/>
@@ -357,7 +357,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="dressImageView" id="GBy-Ph-Upz">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="220"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="220"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
@@ -413,7 +413,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="outwearImageCell" id="kR5-NO-6zs">
-                                                        <rect key="frame" x="0.0" y="-1" width="202" height="229"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="202" height="229"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                             <rect key="frame" x="0.0" y="0.0" width="202" height="229"/>
@@ -640,64 +640,6 @@
             </objects>
             <point key="canvasLocation" x="1150" y="1061"/>
         </scene>
-        <!--Home View Controller-->
-        <scene sceneID="jDE-IM-TBU">
-            <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="8Fd-J8-8uB" customClass="HomeViewController" customModule="closetX" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Us9-l7-La9"/>
-                        <viewControllerLayoutGuide type="bottom" id="eNX-gk-MN2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="T4X-mk-QpL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f5Y-cb-gc0">
-                                <rect key="frame" x="66" y="170" width="468" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHb-sZ-6iG">
-                                <rect key="frame" x="66" y="222" width="468" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5O-6i-8cl">
-                                <rect key="frame" x="281" y="285" width="38" height="30"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <action selector="loginAction:" destination="8Fd-J8-8uB" eventType="touchUpInside" id="3UV-xG-37g"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mci-m6-wFq">
-                                <rect key="frame" x="275" y="550" width="50" height="30"/>
-                                <state key="normal" title="sign up"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="M5O-6i-8cl" firstAttribute="centerX" secondItem="HHb-sZ-6iG" secondAttribute="centerX" id="0YF-I3-u22"/>
-                            <constraint firstItem="mci-m6-wFq" firstAttribute="centerX" secondItem="T4X-mk-QpL" secondAttribute="centerX" id="0Yf-g0-76h"/>
-                            <constraint firstAttribute="trailing" secondItem="f5Y-cb-gc0" secondAttribute="trailing" constant="66" id="3eW-Zc-Jc0"/>
-                            <constraint firstItem="HHb-sZ-6iG" firstAttribute="top" secondItem="f5Y-cb-gc0" secondAttribute="bottom" constant="22" id="D7p-Cp-cV3"/>
-                            <constraint firstItem="HHb-sZ-6iG" firstAttribute="centerX" secondItem="T4X-mk-QpL" secondAttribute="centerX" id="b4d-Rs-q5j"/>
-                            <constraint firstAttribute="trailing" secondItem="HHb-sZ-6iG" secondAttribute="trailing" constant="66" id="dk4-UZ-kcB"/>
-                            <constraint firstItem="M5O-6i-8cl" firstAttribute="top" secondItem="HHb-sZ-6iG" secondAttribute="bottom" constant="33" id="jFz-4K-TQP"/>
-                            <constraint firstItem="eNX-gk-MN2" firstAttribute="top" secondItem="mci-m6-wFq" secondAttribute="bottom" constant="20" id="qMx-AB-tDe"/>
-                            <constraint firstItem="f5Y-cb-gc0" firstAttribute="top" secondItem="Us9-l7-La9" secondAttribute="bottom" constant="150" id="vNW-Ft-Mpa"/>
-                            <constraint firstItem="f5Y-cb-gc0" firstAttribute="centerX" secondItem="T4X-mk-QpL" secondAttribute="centerX" id="xcB-ZT-LcV"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="loginPasswordTextField" destination="HHb-sZ-6iG" id="63h-Xi-TyK"/>
-                        <outlet property="loginUsernameTextField" destination="f5Y-cb-gc0" id="KGK-ht-ahG"/>
-                        <segue destination="ipF-oq-G9Y" kind="show" identifier="tabbarSegue" id="JPn-sg-zm1"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Vr-pp-d83" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-263" y="-419"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="d0R-jR-SLa">
             <objects>
@@ -780,10 +722,10 @@
             </objects>
             <point key="canvasLocation" x="-263" y="295"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="MQy-Og-IES">
             <objects>
-                <viewController id="gHv-ti-Dwr" sceneMemberID="viewController">
+                <viewController id="gHv-ti-Dwr" customClass="SignUpViewController" customModule="closetX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O3X-XQ-L5N"/>
                         <viewControllerLayoutGuide type="bottom" id="Mgu-mh-num"/>
@@ -791,12 +733,84 @@
                     <view key="view" contentMode="scaleToFill" id="Whl-dz-HmG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MGJ-Re-bMV">
+                                <rect key="frame" x="66" y="78" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jmu-Io-v6J">
+                                <rect key="frame" x="66" y="116" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VXZ-wN-4wq">
+                                <rect key="frame" x="66" y="192" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zKE-Tg-qsw">
+                                <rect key="frame" x="66" y="230" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xXI-v7-iH9">
+                                <rect key="frame" x="66" y="154" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QLC-8S-3VB">
+                                <rect key="frame" x="66" y="268" width="468" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pU-Mh-a3K">
+                                <rect key="frame" x="277" y="345" width="46" height="30"/>
+                                <state key="normal" title="Create"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xXI-v7-iH9" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="2HS-5l-b6y"/>
+                            <constraint firstAttribute="trailing" secondItem="Jmu-Io-v6J" secondAttribute="trailing" constant="66" id="2TM-MF-uhm"/>
+                            <constraint firstItem="Jmu-Io-v6J" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="3Mn-13-6P5"/>
+                            <constraint firstItem="QLC-8S-3VB" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="4Wz-mI-6Uw"/>
+                            <constraint firstItem="Jmu-Io-v6J" firstAttribute="top" secondItem="MGJ-Re-bMV" secondAttribute="bottom" constant="8" id="8hZ-rb-gDC"/>
+                            <constraint firstItem="VXZ-wN-4wq" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="FfA-SH-3H2"/>
+                            <constraint firstItem="3pU-Mh-a3K" firstAttribute="centerX" secondItem="QLC-8S-3VB" secondAttribute="centerX" id="GSC-9y-xKk"/>
+                            <constraint firstItem="VXZ-wN-4wq" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="OsW-7W-2ml"/>
+                            <constraint firstItem="zKE-Tg-qsw" firstAttribute="top" secondItem="VXZ-wN-4wq" secondAttribute="bottom" constant="8" id="Q1J-U6-ZjR"/>
+                            <constraint firstAttribute="trailing" secondItem="QLC-8S-3VB" secondAttribute="trailing" constant="66" id="SM9-cN-XUw"/>
+                            <constraint firstItem="QLC-8S-3VB" firstAttribute="top" secondItem="zKE-Tg-qsw" secondAttribute="bottom" constant="8" id="V7i-JL-kzk"/>
+                            <constraint firstItem="xXI-v7-iH9" firstAttribute="top" secondItem="Jmu-Io-v6J" secondAttribute="bottom" constant="8" id="XNe-i5-dxF"/>
+                            <constraint firstItem="zKE-Tg-qsw" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="erT-It-4ik"/>
+                            <constraint firstAttribute="trailing" secondItem="xXI-v7-iH9" secondAttribute="trailing" constant="66" id="fAM-9t-r4r"/>
+                            <constraint firstItem="Mgu-mh-num" firstAttribute="top" secondItem="3pU-Mh-a3K" secondAttribute="bottom" constant="225" id="g90-KZ-2iY"/>
+                            <constraint firstAttribute="trailing" secondItem="zKE-Tg-qsw" secondAttribute="trailing" constant="66" id="hjl-2P-lQU"/>
+                            <constraint firstAttribute="trailing" secondItem="MGJ-Re-bMV" secondAttribute="trailing" constant="66" id="jlJ-jS-YFv"/>
+                            <constraint firstAttribute="trailing" secondItem="VXZ-wN-4wq" secondAttribute="trailing" constant="66" id="kCP-JR-vDm"/>
+                            <constraint firstItem="MGJ-Re-bMV" firstAttribute="top" secondItem="O3X-XQ-L5N" secondAttribute="bottom" constant="58" id="lWs-eC-1EU"/>
+                            <constraint firstAttribute="trailing" secondItem="zKE-Tg-qsw" secondAttribute="trailing" constant="66" id="nCE-X9-wg5"/>
+                            <constraint firstItem="MGJ-Re-bMV" firstAttribute="centerX" secondItem="Whl-dz-HmG" secondAttribute="centerX" id="o3i-vr-pL1"/>
+                            <constraint firstItem="VXZ-wN-4wq" firstAttribute="top" secondItem="xXI-v7-iH9" secondAttribute="bottom" constant="8" id="pGG-RT-Blv"/>
+                            <constraint firstAttribute="trailing" secondItem="VXZ-wN-4wq" secondAttribute="trailing" constant="66" id="rQY-j8-iwb"/>
+                            <constraint firstItem="QLC-8S-3VB" firstAttribute="top" secondItem="zKE-Tg-qsw" secondAttribute="bottom" constant="8" id="tn4-lw-XTT"/>
+                            <constraint firstItem="zKE-Tg-qsw" firstAttribute="top" secondItem="VXZ-wN-4wq" secondAttribute="bottom" constant="8" id="y8B-0B-iZw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FfA-SH-3H2"/>
+                                <exclude reference="rQY-j8-iwb"/>
+                                <exclude reference="Q1J-U6-ZjR"/>
+                                <exclude reference="hjl-2P-lQU"/>
+                                <exclude reference="tn4-lw-XTT"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="arT-oY-O5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-324" y="1123"/>
+            <point key="canvasLocation" x="211" y="-863"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Ip5-bn-X1p">

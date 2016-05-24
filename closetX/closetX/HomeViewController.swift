@@ -8,10 +8,16 @@
 
 import UIKit
 
+protocol HomeViewControllerDelegate: class
+{
+    func homeViewControllerDidFinishLogin()
+    
+}
+
 class HomeViewController: UIViewController
 {
-
     
+    weak var delegate: HomeViewControllerDelegate?
     @IBOutlet weak var loginPasswordTextField: UITextField!
     @IBOutlet weak var loginUsernameTextField: UITextField!
  
@@ -32,23 +38,6 @@ class HomeViewController: UIViewController
      
 
     }
-
-    
-    @IBAction func loginAction(sender: UIButton)
-    {
-        if let password = self.loginPasswordTextField.text{
-            if let username = self.loginUsernameTextField.text{
-            OAuth.shared.loginToApp(username, password: password, completion: { (success) in
-                if success{
-                self.performSegueWithIdentifier("tabbarSegue", sender: nil)
-                }
-            })
-       
-            }
-        } else{print("error")}
-        
-    }
- 
 }
 
 
