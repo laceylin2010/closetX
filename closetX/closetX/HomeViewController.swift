@@ -38,27 +38,6 @@ class HomeViewController: UIViewController
      
 
     }
-
-    
-    @IBAction func loginAction(sender: UIButton)
-    {
-        if let password = self.loginPasswordTextField.text{
-            if let username = self.loginUsernameTextField.text{
-                OAuth.shared.loginToApp(username, password: password, completion: { (success) in
-                if success{
-                    self.delegate?.homeViewControllerDidFinishLogin()
-                } else {
-                    let alertController = UIAlertController(title: "Error", message: "Invalid Username or Password", preferredStyle: .Alert)
-                    alertController.addAction(UIAlertAction(title: "Ok", style: .Cancel, handler: nil))
-                    self.presentViewController(alertController, animated: true, completion: nil)
-                }
-            })
-       
-            }
-        } else{print("error")}
-        
-    }
- 
 }
 
 

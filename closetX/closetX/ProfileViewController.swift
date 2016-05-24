@@ -32,15 +32,7 @@ class ProfileViewController: UIViewController
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-//        self.checkTokenStatus()
     }
-    
-    func checkTokenStatus(){
-        do{
-            let _ = try OAuth.shared.accessToken()
-        } catch _ { self.presentLoginViewController() }
-    }
-    
     
     func presentLoginViewController()
     {

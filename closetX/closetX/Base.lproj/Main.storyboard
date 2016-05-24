@@ -640,67 +640,6 @@
             </objects>
             <point key="canvasLocation" x="1150" y="1061"/>
         </scene>
-        <!--Home View Controller-->
-        <scene sceneID="jDE-IM-TBU">
-            <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="8Fd-J8-8uB" customClass="HomeViewController" customModule="closetX" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Us9-l7-La9"/>
-                        <viewControllerLayoutGuide type="bottom" id="eNX-gk-MN2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="T4X-mk-QpL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f5Y-cb-gc0">
-                                <rect key="frame" x="66" y="170" width="468" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHb-sZ-6iG">
-                                <rect key="frame" x="66" y="222" width="468" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5O-6i-8cl">
-                                <rect key="frame" x="281" y="285" width="38" height="30"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <action selector="loginAction:" destination="8Fd-J8-8uB" eventType="touchUpInside" id="3UV-xG-37g"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mci-m6-wFq">
-                                <rect key="frame" x="275" y="550" width="50" height="30"/>
-                                <state key="normal" title="sign up"/>
-                                <connections>
-                                    <segue destination="gHv-ti-Dwr" kind="show" id="3eb-Vb-IEP"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="M5O-6i-8cl" firstAttribute="centerX" secondItem="HHb-sZ-6iG" secondAttribute="centerX" id="0YF-I3-u22"/>
-                            <constraint firstItem="mci-m6-wFq" firstAttribute="centerX" secondItem="T4X-mk-QpL" secondAttribute="centerX" id="0Yf-g0-76h"/>
-                            <constraint firstAttribute="trailing" secondItem="f5Y-cb-gc0" secondAttribute="trailing" constant="66" id="3eW-Zc-Jc0"/>
-                            <constraint firstItem="HHb-sZ-6iG" firstAttribute="top" secondItem="f5Y-cb-gc0" secondAttribute="bottom" constant="22" id="D7p-Cp-cV3"/>
-                            <constraint firstItem="HHb-sZ-6iG" firstAttribute="centerX" secondItem="T4X-mk-QpL" secondAttribute="centerX" id="b4d-Rs-q5j"/>
-                            <constraint firstAttribute="trailing" secondItem="HHb-sZ-6iG" secondAttribute="trailing" constant="66" id="dk4-UZ-kcB"/>
-                            <constraint firstItem="M5O-6i-8cl" firstAttribute="top" secondItem="HHb-sZ-6iG" secondAttribute="bottom" constant="33" id="jFz-4K-TQP"/>
-                            <constraint firstItem="eNX-gk-MN2" firstAttribute="top" secondItem="mci-m6-wFq" secondAttribute="bottom" constant="20" id="qMx-AB-tDe"/>
-                            <constraint firstItem="f5Y-cb-gc0" firstAttribute="top" secondItem="Us9-l7-La9" secondAttribute="bottom" constant="150" id="vNW-Ft-Mpa"/>
-                            <constraint firstItem="f5Y-cb-gc0" firstAttribute="centerX" secondItem="T4X-mk-QpL" secondAttribute="centerX" id="xcB-ZT-LcV"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="loginPasswordTextField" destination="HHb-sZ-6iG" id="63h-Xi-TyK"/>
-                        <outlet property="loginUsernameTextField" destination="f5Y-cb-gc0" id="KGK-ht-ahG"/>
-                        <segue destination="ipF-oq-G9Y" kind="show" identifier="tabbarSegue" id="JPn-sg-zm1"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Vr-pp-d83" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-263" y="-419"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="d0R-jR-SLa">
             <objects>
@@ -828,9 +767,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pU-Mh-a3K">
                                 <rect key="frame" x="277" y="345" width="46" height="30"/>
                                 <state key="normal" title="Create"/>
-                                <connections>
-                                    <action selector="createUserAction:" destination="gHv-ti-Dwr" eventType="touchUpInside" id="Wjl-66-0Wa"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -871,18 +807,10 @@
                             </mask>
                         </variation>
                     </view>
-                    <connections>
-                        <outlet property="confirmPasswordTextLabel" destination="QLC-8S-3VB" id="d1V-Qj-jAz"/>
-                        <outlet property="emailTextLabel" destination="xXI-v7-iH9" id="tUY-f3-Klu"/>
-                        <outlet property="firstNameTextLabel" destination="MGJ-Re-bMV" id="Juh-hv-QZU"/>
-                        <outlet property="lastNameTextLabel" destination="Jmu-Io-v6J" id="sbn-MR-py9"/>
-                        <outlet property="passwordTextLabel" destination="zKE-Tg-qsw" id="r2G-hP-T68"/>
-                        <outlet property="usernameTextLabel" destination="VXZ-wN-4wq" id="f2c-Z8-xAv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="arT-oY-O5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="421" y="-813"/>
+            <point key="canvasLocation" x="211" y="-863"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Ip5-bn-X1p">
