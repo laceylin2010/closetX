@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 protocol HomeViewControllerDelegate: class
 {
@@ -18,9 +19,6 @@ class HomeViewController: UIViewController
 {
     
     weak var delegate: HomeViewControllerDelegate?
-    @IBOutlet weak var loginPasswordTextField: UITextField!
-    @IBOutlet weak var loginUsernameTextField: UITextField!
- 
     
     override func viewDidLoad()
     {
@@ -37,6 +35,13 @@ class HomeViewController: UIViewController
         super.viewWillAppear(animated)
      
 
+    }
+    
+    func login()
+    {
+        if (PFUser != PFUser.currentUser) {
+            
+        }
     }
 }
 
