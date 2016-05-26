@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-import Parse
+
 
 
 @UIApplicationMain
@@ -23,21 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HomeViewControllerDelegat
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
         self.style()
-        self.setupParse()
         return true
     }
-    
-    func setupParse()
-    {
-        let configuration = ParseClientConfiguration { (ParseMutableClientConfiguration) in
-            ParseMutableClientConfiguration.applicationId = "kjhssdf"
-            ParseMutableClientConfiguration.clientKey = "sdfkjsfkj"
-            ParseMutableClientConfiguration.server = "http:localhost:1337/parse"
-        }
-        Parse.initializeWithConfiguration(configuration)
-        
-        
-    }
+
     
     func style ()
     {

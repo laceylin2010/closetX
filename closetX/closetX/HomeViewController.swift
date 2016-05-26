@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Parse
+
 
 protocol HomeViewControllerDelegate: class
 {
@@ -37,12 +37,6 @@ class HomeViewController: UIViewController
 
     }
     
-    func login()
-    {
-        if (PFUser != PFUser.currentUser) {
-            
-        }
-    }
 }
 
 
