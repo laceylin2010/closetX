@@ -35,6 +35,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HomeViewControllerDelegat
             ParseMutableClientConfiguration.server = "http:localhost:1337/parse"
         }
         Parse.initializeWithConfiguration(configuration)
+        
+        
     }
     
     func style ()
