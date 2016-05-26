@@ -8,6 +8,13 @@
 
 import UIKit
 import CoreData
+import AWSCore
+import AWSCognito
+import AWSS3
+import AWSDynamoDB
+import AWSSQS
+import AWSSNS
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, HomeViewControllerDelegate {
@@ -19,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HomeViewControllerDelegat
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.style()
+        self.style()    
         return true
     }
     
