@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import ParseUI
 
 
 protocol HomeViewControllerDelegate: class
@@ -15,10 +17,11 @@ protocol HomeViewControllerDelegate: class
     
 }
 
-class HomeViewController: UIViewController
+class HomeViewController: UIViewController, PFLogInViewControllerDelegate
 {
     
     weak var delegate: HomeViewControllerDelegate?
+    
     
     override func viewDidLoad()
     {
@@ -34,9 +37,18 @@ class HomeViewController: UIViewController
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
      
-
     }
     
+    func login()
+    {
+        if (PFUser.currentUser() == nil) {
+            let loginController = PFLogInViewController()
+            loginController.delegate = self
+            loginController.presentViewController(loginController, animated: true, completion: nil)
+        } else {
+            return
+        }
+    }
 }
 
 
