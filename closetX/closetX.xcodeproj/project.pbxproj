@@ -32,6 +32,7 @@
 		AF47BD571CC946C2004BBB9B /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD521CC946C2004BBB9B /* 3.JPG */; };
 		AF47BD581CC946C2004BBB9B /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AF47BD531CC946C2004BBB9B /* 4.JPG */; };
 		AF47BD5A1CC94771004BBB9B /* FollowersCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */; };
+		AFE159531CFE06AD00F141B7 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE159521CFE06AD00F141B7 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +81,7 @@
 		AF47BD521CC946C2004BBB9B /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
 		AF47BD531CC946C2004BBB9B /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
 		AF47BD591CC94771004BBB9B /* FollowersCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersCollectionCell.swift; sourceTree = "<group>"; };
+		AFE159521CFE06AD00F141B7 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE159531CFE06AD00F141B7 /* ParseUI.framework in Frameworks */,
 				890EF27B1CFE047D00DD8477 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +100,7 @@
 		AF47BD0E1CC58082004BBB9B = {
 			isa = PBXGroup;
 			children = (
+				AFE159521CFE06AD00F141B7 /* ParseUI.framework */,
 				890EF27A1CFE047D00DD8477 /* Parse.framework */,
 				AF47BD191CC58082004BBB9B /* closetX */,
 				AF47BD4E1CC7FEF4004BBB9B /* Images */,
@@ -433,7 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = closetX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laceyvu.closetX;
@@ -448,7 +455,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = closetX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laceyvu.closetX;
