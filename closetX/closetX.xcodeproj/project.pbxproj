@@ -100,10 +100,7 @@
 		AF47BD0E1CC58082004BBB9B = {
 			isa = PBXGroup;
 			children = (
-				AFE159521CFE06AD00F141B7 /* ParseUI.framework */,
-				890EF27A1CFE047D00DD8477 /* Parse.framework */,
 				AF47BD191CC58082004BBB9B /* closetX */,
-				AF47BD4E1CC7FEF4004BBB9B /* Images */,
 				AF47BD181CC58082004BBB9B /* Products */,
 				AF47BD331CC7F212004BBB9B /* closetX-Bridging-Header.h */,
 			);
@@ -120,10 +117,12 @@
 		AF47BD191CC58082004BBB9B /* closetX */ = {
 			isa = PBXGroup;
 			children = (
+				AFE159541CFE06EE00F141B7 /* Frameworks */,
 				AF47BD2F1CC7ED99004BBB9B /* Controllers */,
 				AF47BD301CC7EDA5004BBB9B /* View */,
 				AF47BD311CC7EDB3004BBB9B /* Global */,
 				AF47BD321CC7EDC4004BBB9B /* Model */,
+				AF47BD4E1CC7FEF4004BBB9B /* Images */,
 			);
 			path = closetX;
 			sourceTree = "<group>";
@@ -208,7 +207,16 @@
 				AF47BD531CC946C2004BBB9B /* 4.JPG */,
 			);
 			name = Images;
-			path = closetX;
+			sourceTree = "<group>";
+		};
+		AFE159541CFE06EE00F141B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE159521CFE06AD00F141B7 /* ParseUI.framework */,
+				890EF27A1CFE047D00DD8477 /* Parse.framework */,
+			);
+			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

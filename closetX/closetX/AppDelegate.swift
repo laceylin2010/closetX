@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import Parse
 
 
 @UIApplicationMain
@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HomeViewControllerDelegat
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
         self.style()
+        self.setupParse()
         return true
     }
 
@@ -30,6 +31,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HomeViewControllerDelegat
     func style ()
     {
         UIApplication.sharedApplication().statusBarStyle = .LightContent
+    }
+    
+    func setupParse()
+    {
+        let config = ParseClientConfiguration {
+            $0.applicationId = "kjhsdfka"
+            $0.clientKey = "sfjkh"
+            $0.server = "http://localhost:1337/parse"
+        }
+        
+        Parse.initializeWithConfiguration(config)
     }
     
     func presentLoginViewController()
